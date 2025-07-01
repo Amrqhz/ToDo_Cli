@@ -1,7 +1,7 @@
 {
-  "name": "todo",
+  "name": "@amrqhz/todo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A beautiful terminal-based todo application with timestamps and progress tracking",
   "main": "todo.js",
   "bin": {
     "todo": "./todo.js"
@@ -9,8 +9,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["todo", "todoapp", "todo-cli", "terminal", "cli", "productivity"],
+  "author": "amrqhz <amrqhz.github.io>",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amrqhz/todo"
+  },
+  "homepage": "https://github.com/amrqhz/todo#readme",
+  "bugs": {
+    "url": "https://github.com/amrqhz/todo/issues"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }
