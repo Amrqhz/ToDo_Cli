@@ -1,14 +1,25 @@
-Hi. This is a todo app for you, if you are a terminal guy.
-</br>Be happy cause you don't need to go out of terminal and write down your todo list in any other apps. 
+Welcome to **Terminal Todo App** — your simple, fast, and efficient todo list manager right in your terminal!  
+No need to switch apps or open browsers. Manage your tasks directly from the command line and boost your productivity instantly.
+
+---
+
+## Features
+
+- Add, view, check/uncheck, and remove todos effortlessly  
+- Clear all completed tasks with a single command  
+- Minimal setup and easy to use  
+- Works entirely within your terminal  
+
+---
 
 **Now you can use it with:**
 
-# Show all todos
+### Show all todos
 ```code
 todo
 ```
 
-# Add a new todo
+### Add a new todo
 ```code
 todo add "Buy groceries"
 ```
@@ -18,28 +29,29 @@ todo add "Buy groceries"
 todo add "Finish project"
 ```
 
-# Check/uncheck a todo (toggle)
+### Check/uncheck a todo (toggle)
 ```code
 todo check 1
 ```
 
-# Remove a todo
+### Remove a todo
 ```code
 todo remove 2
 ```
 
-# Clear all completed todos
+### Clear all completed todos
 ```code
 todo clear
 ```
 
-# Show help
+### Show help
 ```code 
 todo help
 ```
 
 
-# For installing the app 
+# Installation
+Follow these simple steps to get started:
 
 ```bash
 
@@ -56,3 +68,21 @@ npm init -y
 # Install globally
 npm install -g .
 ```
+
+
+## Usage Tips
+
+- Use `todo` to quickly list all your tasks.  
+- Use task IDs (shown in the list) to toggle or remove specific todos.  
+- Keep your task list clean by clearing completed todos regularly with `todo clear`.  
+
+---
+
+## Contributing
+
+Feel free to contribute! Open issues or submit pull requests to improve the app.
+
+---
+
+Stay productive and happy coding! 🚀  
+If you have any questions or suggestions, don’t hesitate to reach out.
