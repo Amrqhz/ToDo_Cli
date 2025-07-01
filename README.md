@@ -1,23 +1,59 @@
 Hi. This is a todo app for you, if you are a terminal guy.
 </br>Be happy cause you don't need to go out of terminal and write down your todo list in any other apps. 
 
-Now you can use it with:
+**Now you can use it with:**
 
 # Show all todos
-```todo```
+```code
+todo
+```
 
 # Add a new todo
-```todo add "Buy groceries"```
-```todo add "Finish project"```
+```code
+todo add "Buy groceries"
+```
+</br>
+
+```code
+todo add "Finish project"
+```
 
 # Check/uncheck a todo (toggle)
-```todo check 1```
+```code
+todo check 1
+```
 
 # Remove a todo
-```todo remove 2```
+```code
+todo remove 2
+```
 
 # Clear all completed todos
-```todo clear```
+```code
+todo clear
+```
 
 # Show help
-```todo help```
+```code 
+todo help
+```
+
+
+# For installing the app 
+
+```bash
+
+# Create a package.json
+npm init -y
+
+# Add bin field to package.json:
+{
+  "name": "my-todo-cli",
+  "bin": {
+    "todo": "./todo.js"
+  }
+}
+
+# Install globally
+npm install -g .
+```
