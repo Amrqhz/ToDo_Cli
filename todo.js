@@ -113,7 +113,7 @@ function displayTodos(todos) {
             console.log(`  \x1b[33m○\x1b[0m \x1b[1m${num}.\x1b[0m ${todo.text}`);
             console.log(`     \x1b[90m\x1b[2m📅 Created ${timeAgo}\x1b[0m`);
         }
-        console.log(''); // Add spacing between todos
+        console.log(''); 
     });
     
     console.log('\x1b[2m  💡 Use "todo check <number>" to toggle completion\x1b[0m');

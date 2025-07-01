@@ -48,10 +48,9 @@ npm init -y
 
 # Add bin field to package.json:
 {
-  "name": "my-todo-cli",
   "bin": {
     "todo": "./todo.js"
-  }
+  },
 }
 
 # Install globally
