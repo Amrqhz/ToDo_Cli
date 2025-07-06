@@ -89,7 +89,7 @@ function displayTodos(todos) {
     // Header
     console.log('┌─────────────────────────────────────────────┐');
     console.log('│                                             │');
-    console.log('│  \x1b[1m\x1b[36m📝 Your Todo List\x1b[0m                          │');
+    console.log('│  \x1b[1m\x1b[36m 📝 Your Todo List\x1b[0m                         │');
     console.log('│                                             │');
     console.log('└─────────────────────────────────────────────┘');
 
@@ -228,35 +228,35 @@ function showHelp() {
     console.log(`
 ╔═══════════════════════════════════════════════════════╗
 ║                                                       ║
-║  \x1b[1m\x1b[36m📝 Todo CLI - Command Reference\x1b[0m                    ║
+║  \x1b[1m\x1b[36m📝 Todo CLI - Command Reference\x1b[0m                      ║
 ║                                                       ║
 ╠═══════════════════════════════════════════════════════╣
 ║                                                       ║
-║  \x1b[1mCOMMANDS:\x1b[0m                                           ║
+║  \x1b[1mCOMMANDS:\x1b[0m                                            ║
 ║                                                       ║
-║  \x1b[33mtodo\x1b[0m                     Show all todos            ║
-║  \x1b[33mtodo add "task"\x1b[0m          Add a new todo            ║
-║  \x1b[33mtodo check <number>\x1b[0m      Toggle todo completion    ║
-║  \x1b[33mtodo remove <number>\x1b[0m     Remove a todo             ║
-║  \x1b[33mtodo clear\x1b[0m               Clear completed todos     ║
-║  \x1b[33mtodo help\x1b[0m                Show this help            ║
-║                                                       ║
-╠═══════════════════════════════════════════════════════╣
-║                                                       ║
-║  \x1b[1mEXAMPLES:\x1b[0m                                          ║
-║                                                       ║
-║  \x1b[32m$\x1b[0m todo add "Buy groceries"                       ║
-║  \x1b[32m$\x1b[0m todo add "Finish the report"                   ║
-║  \x1b[32m$\x1b[0m todo check 1                                   ║
-║  \x1b[32m$\x1b[0m todo remove 2                                  ║
-║  \x1b[32m$\x1b[0m todo clear                                     ║
+║  \x1b[33mtodo\x1b[0m                     Show all todos              ║
+║  \x1b[33mtodo add "task"\x1b[0m          Add a new todo              ║
+║  \x1b[33mtodo check <number>\x1b[0m      Toggle todo completion      ║
+║  \x1b[33mtodo remove <number>\x1b[0m     Remove a todo               ║
+║  \x1b[33mtodo clear\x1b[0m               Clear completed todos       ║
+║  \x1b[33mtodo help\x1b[0m                Show this help              ║
 ║                                                       ║
 ╠═══════════════════════════════════════════════════════╣
 ║                                                       ║
-║  \x1b[1mFEATURES:\x1b[0m                                         ║
+║  \x1b[1mEXAMPLES:\x1b[0m                                            ║
+║                                                       ║
+║  \x1b[32m$\x1b[0m todo add "Buy groceries"                           ║
+║  \x1b[32m$\x1b[0m todo add "Finish the report"                       ║
+║  \x1b[32m$\x1b[0m todo check 1                                       ║
+║  \x1b[32m$\x1b[0m todo remove 2                                      ║
+║  \x1b[32m$\x1b[0m todo clear                                         ║
+║                                                       ║
+╠═══════════════════════════════════════════════════════╣
+║                                                       ║
+║  \x1b[1mFEATURES:\x1b[0m                                            ║
 ║                                                       ║
 ║  📅 Timestamps for creation and completion            ║
-║  🕒 Smart relative time display (2h ago, 3d ago)     ║
+║  🕒 Smart relative time display (2h ago, 3d ago)      ║
 ║  📊 Statistics and progress tracking                  ║
 ║  🎨 Beautiful CLI interface with colors               ║
 ║                                                       ║
